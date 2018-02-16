@@ -1,5 +1,5 @@
 {
-	"apiVersion": "apps/bet",
+	"apiVersion": "apps/beta",
 	"kind": "StatefulSet",
 	"metadata": {
 		"name": "web"
