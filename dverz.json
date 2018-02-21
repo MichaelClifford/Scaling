@@ -123,8 +123,8 @@
       }
     },
     {
-      "kind": "Service",
-      "apiVersion": "v1",
+      "kind": "StatefulSet",
+      "apiVersion": "apps/beta1v1",
       "metadata": {
         "name": "dataverse-glassfish",
         "annotations": {
