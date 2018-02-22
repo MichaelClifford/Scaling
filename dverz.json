@@ -143,8 +143,8 @@
           "spec": {
             "containers": [
               {
-                "name": "dataverse-glassfish",
-                "image": "dataverse-glassfish",
+                "name": "dataverse-plus-glassfish",
+                "image": "dataverse-plus-glassfish",
                 "ports": [
                   {
                     "containerPort": 8080,
@@ -209,7 +209,7 @@
               ],
               "from": {
                 "kind": "ImageStreamTag",
-                "name": "dataverse-glassfish:latest"
+                "name": "dataverse-plus-glassfish:latest"
               }
             }
           },
