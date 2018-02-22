@@ -219,7 +219,7 @@
         ],
        
         "selector": {
-          "name": "iqss-dataverse-glassfish"
+          "name": "iqss-dataverse-glassfish",
          "matchLabels" : {
            "name": "iqss-dataverse-glassfish"
         }
