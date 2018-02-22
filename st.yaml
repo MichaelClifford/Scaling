@@ -40,12 +40,3 @@ spec:
         volumes:
         - name: nginx-volume
           emptyDir: {}
-  volumeClaimTemplates:
-  - metadata:
-      name: www
-    spec:
-      accessModes: [ "ReadWriteOnce" ]
-      storageClassName: my-storage-claim
-      resources:
-        requests:
-          storage: 0.1Gi
