@@ -94,7 +94,7 @@
     },
     {
       "kind": "ImageStream",
-      "apiVersion": "apps/v1beta1",
+      "apiVersion": "v1",
       "metadata": {
         "name": "dataverse-plus-glassfish"
       },
@@ -219,9 +219,9 @@
         ],
        
         "selector": {
-          "name": "iqss-dataverse-glassfish",
+          "name": "dataverse-plus-glassfish",
          "matchLabels" : {
-           "name": "iqss-dataverse-glassfish"
+           "name": "iqss-dataverse--plus-glassfish"
         }
         }
       }
