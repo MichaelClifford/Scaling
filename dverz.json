@@ -218,12 +218,7 @@
           }
         ],
        
-        "selector": {
-          "name": "dataverse-plus-glassfish",
-         "matchLabels" : {
-           "name": "iqss-dataverse--plus-glassfish"
-        }
-        }
+
       }
     },
     {
