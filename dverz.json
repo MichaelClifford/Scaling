@@ -94,7 +94,7 @@
     },
     {
       "kind": "ImageStream",
-      "apiVersion": "v1",
+      "apiVersion": "apps/v1beta1",
       "metadata": {
         "name": "dataverse-plus-glassfish"
       },
