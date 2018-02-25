@@ -99,7 +99,7 @@
         "name": "dataverse-plus-glassfish"
       },
       "spec": {
-        "dockerImageRepository": "dataverse-glassfish:latest"
+        "dockerImageRepository": "iqss/dataverse-glassfish:latest"
       }
     },
     {
@@ -218,7 +218,12 @@
           }
         ],
        
-
+        "selector": {
+          "name": "iqss-dataverse-glassfish",
+         "matchLabels" : {
+           "name": "iqss-dataverse-glassfish"
+        }
+        }
       }
     },
     {
